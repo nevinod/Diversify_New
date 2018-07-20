@@ -1,0 +1,218 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.component {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.component.first-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.component.second-component {
+    background-color: red;
+}
+
+.component.third-component {
+    background-color: blue;
+}
+
+.component.fourth-component {
+    background-color: yellow;
+}
+
+.component.fifth-component {
+    background-color: purple;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.pagination-additional-class {
+    margin: 0;
+    position: fixed;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination-additional-class > li > a, .pagination-additional-class > li > span {
+    margin-right: 50px;
+}
+
+/* END OF PROVIDED STYLES, BEGINNING OF MY CRYPTO CHART STYLES */
+
+.first-title {
+  margin: 5px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left: -44px;
+  font-size: 90px;
+  font-family: 'Coming Soon', cursive;
+
+}
+
+.first-title-bottom {
+  margin: 5px;
+  margin-left: -44px;
+  font-size: 90px;
+  font-family: 'Coming Soon', cursive;
+}
+
+.welcome-pic {
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.welcome-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.welcome-tool {
+  margin-left: -44px;
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  margin-top: 30px;
+}
+
+.welcome-swipe {
+  margin-left: -44px;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+}
+
+.coin-form {
+  border-radius: 10px;
+}
+
+.coin-input {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgrey;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input.search-coin {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 5px;
+
+
+}
+
+.result-coin-actual {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+
+}
+
+h3.result-coin {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  color: black;
+}
+
+.result-coin {
+  color: white;
+}
+
+.explanation {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.chart {
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.button {
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-bottom: -20px;
+}
+
+.newcone {
+  color: black;
+  font-size: 17;
+  font-weight: 400;
+}
