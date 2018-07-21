@@ -17,7 +17,7 @@ html, body {
 }
 
 .component.second-component {
-    background-color: red;
+
 }
 
 .component.third-component {
@@ -51,6 +51,14 @@ h2 {
 }
 
 /* END OF PROVIDED STYLES, BEGINNING OF MY CRYPTO CHART STYLES */
+
+.new-explanation {
+  font-family: 'Karla', sans-serif;
+  font-size: 26px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 
 .first-title {
   margin: 5px;
@@ -159,7 +167,7 @@ h3.result-coin {
   height: 70%;
   width: 80%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 65px;
 }
 
 /* The Modal (background) */

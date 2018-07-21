@@ -1,7 +1,7 @@
 {
-  "name": "react-page-scroller",
+  "name": "diversify-crypto",
   "version": "1.2.1",
-  "description": "Simple React component for smoothy full-page scolling",
+  "description": "A cryptocurrency tool",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -36,7 +36,7 @@
   "devDependencies": {
     "nwb": "0.22.x"
   },
-  "author": "Viktor Liegostaiev",
+  "author": "Neil Vinod",
   "homepage": "https://vikliegostaiev.github.io/react-page-scroller/",
   "license": "MIT",
   "repository": {
