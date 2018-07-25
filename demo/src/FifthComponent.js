@@ -191,7 +191,7 @@ class Graph extends React.Component {
            }
          }
 
-         //calculate correlation between the inputted coin and every other
+         //correlation
          let temp = Correlation.calc(testArr, inputArr);
          if(parseFloat(temp) < parseFloat(that.state.Lowest)) {
            that.setState({ Winner: allCoins[i] , Lowest: temp, tempData: testArr })
@@ -256,5 +256,3 @@ class Graph extends React.Component {
 }
 
 export default Graph;
-
-
